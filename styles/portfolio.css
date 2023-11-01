@@ -246,3 +246,43 @@ main {
   text-align: center;
   margin-bottom: 110px;
 }
+
+/* Footer Styles */
+footer {
+  display: flex;
+  gap: 110px;
+  background-color: #fff8f3;
+  padding: 130px 230px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+.social-links img {
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+}
+
+.contact-form input,
+textarea {
+  display: block;
+  color: #757575;
+}
+
+.contact-form input {
+  margin-bottom: 25px;
+  padding: 18px 339px 18px 30px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+}
+
+.contact-form textarea {
+  margin-bottom: 25px;
+  padding: 18px 270px 134px 30px;
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+}
