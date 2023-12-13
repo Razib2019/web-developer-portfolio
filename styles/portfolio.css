@@ -274,7 +274,8 @@ textarea {
 
 .contact-form input {
   margin-bottom: 25px;
-  padding: 18px 339px 18px 30px;
+  padding: 18px 35px;
+  width: 100%;
   border-radius: 5px;
   background: #fff;
   border: none;
@@ -282,7 +283,8 @@ textarea {
 
 .contact-form textarea {
   margin-bottom: 25px;
-  padding: 18px 270px 134px 30px;
+  padding: 18px 35px;
+  width: 100%;
   border-radius: 5px;
   background: #fff;
   border: none;
@@ -318,9 +320,39 @@ textarea {
     text-align: center;
     margin: 20px auto;
   }
+  .resume-item-description {
+    padding: 0px 5px;
+  }
   .horizontal-rule {
     width: 75%;
     margin: auto;
+  }
+  footer {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .footer-column {
+    width: 100%;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .contact-form input {
+    width: 70%;
+    margin: 20px auto;
+  }
+
+  .contact-form textarea {
+    width: 70%;
+    margin: 20px auto;
+  }
+
+  .submit {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
   }
 }
 
@@ -355,6 +387,32 @@ textarea {
     width: 75%;
     margin: auto;
   }
+  footer {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .footer-column {
+    width: 100%;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .contact-form input {
+    width: 70%;
+    margin: 20px auto;
+  }
+
+  .contact-form textarea {
+    width: 70%;
+    margin: 20px auto;
+  }
+  .submit {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+  }
 }
 
 /* large Devices or Laptop Devices  */
@@ -387,5 +445,21 @@ textarea {
   .horizontal-rule {
     width: 75%;
     margin: auto;
+  }
+  footer {
+    padding: 40px;
+  }
+  .contact-form input {
+    width: 70%;
+    margin: 20px auto;
+  }
+
+  .contact-form textarea {
+    width: 70%;
+    margin: 20px auto;
+  }
+  .submit {
+    width: 80%;
+    margin: 20px auto;
   }
 }
