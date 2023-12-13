@@ -290,10 +290,41 @@ textarea {
 
 /* Responsive Styles */
 /* Small Devices or Mobile Devices  */
-.hide {
-  display: none;
-}
 @media screen and (max-width: 576px) {
+  .header {
+    background-image: none;
+  }
+  nav {
+    flex-direction: column;
+    margin: 0px auto;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    margin: 0px auto;
+  }
+
+  .nav-ul > li {
+    margin: 10px auto;
+  }
+
+  .nav-ul .btn-primary {
+    margin: 0px auto;
+  }
+
+  .banner {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .banner-content .btn-primary {
+    margin-bottom: 15px;
+  }
+
+  .banner .profile-picture {
+    width: 100%;
+  }
+
   .about {
     padding: 20px;
   }
@@ -370,6 +401,31 @@ textarea {
 
 /* Medium Devices or Tablet Devices  */
 @media screen and (min-width: 577px) and (max-width: 992px) {
+  .header {
+    background-image: none;
+  }
+  nav {
+    margin: 0px 25px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-ul .btn-primary {
+    margin: 0px auto;
+  }
+
+  .banner {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .banner-content .btn-primary {
+    margin-bottom: 15px;
+  }
+
+  .banner .profile-picture {
+    width: 100%;
+  }
   .about {
     padding: 20px;
   }
@@ -443,6 +499,12 @@ textarea {
 
 /* large Devices or Laptop Devices  */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
+  .header {
+    background-image: none;
+  }
+  .banner-content .btn-primary {
+    margin-bottom: 15px;
+  }
   .skills-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
