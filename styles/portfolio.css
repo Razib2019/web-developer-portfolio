@@ -143,18 +143,16 @@ main {
 }
 
 .info-title {
-  color: #757575;
+  color: #5a5a5a;
   text-align: center;
   font-size: 20px;
-  font-weight: 400;
-  line-height: 30px;
+  font-weight: 700;
 }
 
 .info-description {
   color: #474747;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 /* What I Do Section Styles */
@@ -296,6 +294,20 @@ textarea {
   display: none;
 }
 @media screen and (max-width: 576px) {
+  .about {
+    padding: 20px;
+  }
+
+  .about-info-container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-info {
+    display: flex;
+    gap: 10px;
+  }
+
   .skills-container {
     flex-direction: column;
   }
@@ -358,6 +370,20 @@ textarea {
 
 /* Medium Devices or Tablet Devices  */
 @media screen and (min-width: 577px) and (max-width: 992px) {
+  .about {
+    padding: 20px;
+  }
+
+  .about-info-container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-info {
+    display: flex;
+    gap: 30px;
+  }
+
   .skills-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -420,10 +446,6 @@ textarea {
   .skills-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  #what-i-do-description {
-    padding: 0px 50px;
   }
   .skill {
     margin-bottom: 0px;
